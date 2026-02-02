@@ -1,0 +1,111 @@
+/* COLORS: Purple, Black, Pink */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b0b0b;
+    color: #fff;
+}
+
+header {
+    background: #1a0a3f;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff00ff;
+}
+
+header nav a {
+    color: #ff66cc;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #3b0a6b, #8b00ff);
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #ff00ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.product-card {
+    background: #1a0a3f;
+    padding: 20px;
+    border-radius: 12px;
+    width: 220px;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.process-video {
+    width: 60%;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+form input, form textarea {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+form button {
+    padding: 12px 25px;
+    background-color: #ff00ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+footer {
+    background: #1a0a3f;
+    padding: 20px;
+    color: #ff66cc;
+}
